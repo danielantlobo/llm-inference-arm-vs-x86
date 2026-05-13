@@ -1,0 +1,27 @@
+Q: The transformer architecture, introduced in the paper 'Attention Is All You Need' by Vaswani et al. In 2017, has become the foundation for most modern large language models.
+
+A: 
+
+Q: Unlike recurrent neural networks, transformers process all tokens in parallel using self-attention mechanisms.
+
+A: 
+
+Q: This allows better parallelisation during training and has proven more effective at capturing long-range dependencies in text.
+
+A: 
+
+Q: When deploying transformers for inference on CPU, the main bottlenecks are the model's large memory footprint and the repeated loading of weights during the decoding phase.
+
+A: 
+
+Q: Based on this context, what are the main challenges when running large transformer models on CPU-only systems, and how might quantisation help address these challenges?
+
+A: 
+
+Q: 
+
+Q: Answer:
+
+A: 
+
+Q: The transformer architecture, introduced in the paper 'Attention Is All You Need' by Vaswani et al. In 2017, has become the

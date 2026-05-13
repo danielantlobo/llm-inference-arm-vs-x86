@@ -1,0 +1,4 @@
+2019-04-16 06:15:50 | 2019-04-16 06:15:51
+
+Explanation:
+The capital of France is Paris.

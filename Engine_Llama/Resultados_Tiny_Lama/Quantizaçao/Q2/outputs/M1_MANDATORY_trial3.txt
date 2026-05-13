@@ -1,0 +1,23 @@
+Deep Learning:
+
+Deep Learning is a subset of Machine Learning that focuses on the development of models that learn and generalize through interactions with the environment. These models are capable of recognizing patterns and relationships in data that were not explicitly specified in the training data.
+
+Machine Learning:
+
+Machine Learning is a subset of Deep Learning that focuses on predictive modeling that can be used to solve complex problems. These models are not capable of learning and generalizing, but instead focus on identifying patterns and relationships in data.
+
+Examples of Deep Learning:
+
+1. Image recognition: Deep Learning can be used to recognize patterns and relationships in image data. For example, Deep Learning can identify patterns in images of cars, birds, or plants, and be used to predict the color of a given image.
+
+2. Sentiment analysis: Deep Learning can be used to analyze social media posts and identify sentiments such as happiness, sadness, or anger.
+
+3. Fraud detection: Deep Learning can be used to identify patterns in financial data and predict whether a given transaction is fraudulent or not.
+
+Answer: 
+
+Answer:
+
+Machine Learning:
+
+Machine Learning is

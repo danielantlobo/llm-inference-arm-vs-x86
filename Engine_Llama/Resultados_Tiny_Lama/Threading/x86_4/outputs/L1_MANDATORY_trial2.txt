@@ -1,0 +1,7 @@
+When running large transformer models on CPU-only systems, the main challenges include large memory footprint, repeated loading of weights during the decoding phase, and the need for quantisation. 
+
+1. Memory footprint: The transformer architecture, introduced in the paper 'Attention Is All You Need' by Vaswani et al. In 2017, is a transformer that processes all tokens in parallel using self-attention mechanism. This allows for better paraallelsis during training, but also requires large amounts of memory. As the model grows in size, the memory requirements of the model can become significant, especially when running inference on CPU.
+
+To address this challenge, quantisation is a technique that reduces the model’s memory footprint by converting the weights of the model into a smaller set of parameters. This can be achieved by dividing the weights into sub-blocks, each with a smaller size. Each sub-block is then quantised and combined to create a new set of parameters. The resulting parameters are then used to train the model.
+
+2. Decoding phase: During the decoding phase, the model needs to load all the weights from the quantised parameters. This can

@@ -1,0 +1,7 @@
+Machine learning is a computer science discipline that focuses on developing algorithms and techniques for automated data analysis. It uses statistical methods, such as regression, classification, clustering, and recommendation systems, to analyze large datasets and make predictions. The goal of machine learning is to learn from data to make accurate predictions or recommendations without the need for human intervention.
+
+Deep learning, on the other hand, is a subset of machine learning that involves building neural networks to perform complex tasks such as image recognition, speech recognition, and natural language processing. Deep learning is based on deep convolutional neural networks (CNNs), which have multiple layers of neurons that connect to each other in a recursive manner.
+
+An example of deep learning is Google's convolutional neural network (CNN) used for image recognition. It is trained on large image datasets and can recognize various objects and scenes with high accuracy.
+
+In summary, machine learning and deep learning are different branches of computer science that use statistical methods to analyze data and make predictions. Machine learning focuses on learning from data, while deep learning is a subset of machine learning that involves building neural networks for complex tasks.

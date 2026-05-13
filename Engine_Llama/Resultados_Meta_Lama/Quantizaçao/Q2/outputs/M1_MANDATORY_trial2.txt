@@ -1,0 +1,15 @@
+Machine learning and deep learning are two terms that are often used interchangeably, but they have distinct meanings and applications. Machine learning is a broader field that encompasses various techniques, including deep learning, to enable computers to learn from data and make predictions or decisions. Deep learning, on the other hand, is a specific type of machine learning that involves neural networks with multiple layers, which can learn and represent complex representations of data.
+
+## Step 1: Define Machine Learning
+Machine learning is a field of study that focuses on enabling computers to learn from data, without being explicitly programmed. It involves various techniques, including deep learning, to make predictions or decisions.
+
+## Step 2: Define Deep Learning
+Deep learning is a specific type of machine learning that involves neural networks with multiple layers. These networks can learn and represent complex representations of data.
+
+## Step 3: Provide Examples of Each
+Example of Machine Learning: A self-driving car that uses machine learning to recognize traffic lights and navigate through intersections.
+
+Example of Deep Learning: A chatbot that uses deep learning to recognize patterns in user input and generate responses.
+
+## Step 4: Highlight Key Differences
+Key differences between machine learning and deep learning include the level of complexity and the type of data. Machine learning can handle a variety of

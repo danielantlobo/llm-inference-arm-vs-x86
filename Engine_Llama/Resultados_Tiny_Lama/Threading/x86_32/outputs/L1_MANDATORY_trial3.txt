@@ -1,0 +1,7 @@
+When deploying large transformer models on CPU-only systems, the main bottlenecks are the model’s large memory footprint and the repeated loading of weights during the decoding phase. Quantisation is a potential solution to mitigate these issues.
+
+Quantisation is the process of converting an integer-valued representation of an input into a smaller, floating-point representation. This is done in order to reduce the memory footprint of the model while maintaining the same accuracy as the original input. By quantising the input, the model can be trained with a fixed-point representation, reducing memory usage while preserving the same accuracy as the original input.
+
+However, quantisation has its own set of challenges. One of the main challenges is the need to ensure that the quantised inputs and the original inputs are equivalent. This can be achieved through techniques such as quantisation normalisation, which normalizes the input to a fixed-point range between -1 and +1.
+
+Quantisation can also have an impact on the performance of the model. As the fixed-point representation of the input increases, the accuracy of the model decreases. However, the accuracy loss is less severe for larger models, as the

@@ -1,0 +1,8 @@
+## Step 1: Identify the main challenges when running large transformer models on CPU-only systems.
+The main challenges when running large transformer models on CPU-only systems are the model's large memory footprint and the repeated loading of weights during the decoding phase. This is because transformer models typically have a large number of parameters, which can easily exceed the available memory on a single CPU, leading to out-of-memory (OOM) errors. Moreover, the repeated loading of weights during the decoding phase can slow down the inference process significantly.
+
+## Step 2: Explain how quantisation can help address the challenges.
+Quantisation is a technique that reduces the precision of model weights and activations to reduce memory usage and computation time. By reducing the precision of model weights and activations, quantisation can significantly reduce the memory footprint of the model, making it possible to run large transformer models on CPU-only systems with limited memory. Moreover, quantisation can also reduce the number of computations required for inference, which can speed up the inference process.
+
+## Step 3: Discuss the types of quantisation and their impact on model performance.
+There are several types of quantisation, including binarisation, ternarisation, and fixed-point quantisation. Binarisation reduces the precision of model weights to a single bit

@@ -1,0 +1,9 @@
+Machine learning is a branch of artificial intelligence that involves teaching computers to perform tasks without explicitly programming them. It uses algorithms to identify patterns in data and improve the system's performance over time. Machine learning can be applied to various tasks such as image recognition, voice recognition, and natural language processing. 
+
+Deep learning is a subset of machine learning that uses neural networks to model complex relationships in data. It is a type of deep learning that uses artificial neural networks to learn from large amounts of data. Deep learning has been used to create advanced AI applications such as self-driving cars, image recognition, and natural language processing. 
+
+An example of machine learning is the use of machine learning algorithms to identify patterns in data to improve the accuracy of a system's performance. For example, machine learning can be used to improve the accuracy of a recommendation system by identifying patterns in user behavior. 
+
+An example of deep learning is the use of deep neural networks to learn from large amounts of data. For example, deep learning can be used to improve self-driving cars by identifying patterns in sensor data to improve the car's performance. 
+
+In summary, both machine learning and deep learning are key differences between these technologies. Machine learning is a broader category that includes many different applications such as image recognition and natural language processing

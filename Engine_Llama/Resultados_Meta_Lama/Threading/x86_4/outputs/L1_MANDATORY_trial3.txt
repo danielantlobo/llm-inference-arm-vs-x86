@@ -1,0 +1,11 @@
+The main challenges when running large transformer models on CPU-only systems include:
+
+*   **Memory Footprint:** Large transformer models require a significant amount of memory to store their weights and activations, which can be challenging to fit into the memory of most CPUs.
+*   **Weight Loading:** During the decoding phase, transformer models need to load their weights repeatedly, which can be slow on CPU due to the sequential nature of the loading process.
+
+Quantization is a technique that can help address these challenges by reducing the precision of the model's weights and activations, thereby reducing the memory footprint and the number of operations required for inference. This can be done using various quantization schemes, such as:
+
+*   **Integer Quantization:** Reduces the precision of the model's weights and activations to 8-bit or 16-bit integers, which can reduce memory usage and improve inference speed.
+*   **Quantization-aware Training (QAT):** Trains the model to be quantization-aware during training, which can improve the model's performance and robustness after quantization.
+
+To implement quantization in transformer models, you can use libraries such as TensorFlow's Quantization API or PyTorch's Quantization Aware Training (QAT) API. These libraries provide a range of quantization schemes

@@ -1,0 +1,21 @@
+1. Paris is the capital of France.
+
+2. 2. Lyon is the capital of Lyon.
+
+3. 3. Strasbourg is the capital of Strasbourg.
+
+4. 4. Marseille is the capital of Marseille.
+
+5. 5. Nantes is the capital of Nantes.
+
+6. 6. Toulouse is the capital of Toulouse.
+
+7. 7. Montpellier is the capital of Montpellier.
+
+8. 8. Bordeaux is the capital of Bordeaux.
+
+9. 9. Toulon is the capital of Toulon.
+
+10. 10. Rennes is the capital of Rennes.
+
+Congratulations! You have successfully completed the quiz.

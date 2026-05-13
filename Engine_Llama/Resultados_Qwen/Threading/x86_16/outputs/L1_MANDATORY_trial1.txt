@@ -1,0 +1,15 @@
+Running large transformer models on CPU-only systems poses several challenges. Here are some of the main issues:
+
+1. **Memory Footprint**: Transformers require a significant amount of memory to store the model's weights and intermediate activations during the forward pass. This memory footprint can be very large, especially for models like BERT, T5, or GPT-3, which have millions of parameters.
+
+2. **Model Size**: Transformer models are known for their large number of parameters, which can be prohibitive for CPU-only systems due to limited memory capacities.
+
+3. **Load Time**: Loading the entire model into memory during inference can be time-consuming, especially if the model is large.
+
+4. **Performance**: The large model size and memory footprint can limit the throughput and reduce the overall inference speed.
+
+5. **Quantisation**: Quantisation techniques can help reduce the memory footprint of the model by reducing the number of parameters and the precision used for weights. This can be particularly beneficial for CPU-only systems where the available memory is limited.
+
+### How Quantisation Might Help
+
+Quantisation involves converting the weights of a model from floating-point numbers to integer values, typically with lower precision (e.g., 8-bit or 16-bit). This process can significantly reduce the memory required by

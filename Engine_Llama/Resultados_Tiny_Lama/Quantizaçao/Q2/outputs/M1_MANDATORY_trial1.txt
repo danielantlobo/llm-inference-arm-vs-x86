@@ -1,0 +1,7 @@
+Deep learning and machine learning are two of the most popular machine learning techniques that are used to solve a wide range of problems in data science. Both techniques are based on deep neural networks, which are large, fully connected layers of neurons that are trained to recognize patterns in data. Deep learning is more commonly applied in a wide range of applications, from natural language processing to computer vision and speech recognition.
+
+Deep learning works by training a neural network to learn patterns and relationships in data. Instead of building a separate model for each data point, a deep neural network can be used to represent complex relationships between variables. This allows for a more complex model to be trained without needing to know the specific relationship between each data point.
+
+One example of deep learning is the work of J.K. Hinton at the University of Toronto. He and his colleagues trained a deep neural network to recognize patterns in the data in a way that is more like how humans process visual data. This led to a more successful model than traditional machine learning models that used simple linear regression.
+
+Machine learning, on the other hand, is more concerned with predicting a specific outcome based on data. The technique uses statistical models to predict outcomes based on pre-

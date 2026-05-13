@@ -1,0 +1,21 @@
+### Main Challenges
+
+When running large transformer models on CPU-only systems, the main challenges are:
+
+1. **Memory Footprint**: Transformers require significant amounts of memory to store the entire model and its parameters. This can lead to high memory usage, making inference expensive and inefficient.
+
+2. **Warm-up Time**: The time required to initialise the model and load weights during the decoding phase is substantial. This is especially important for models with a large number of parameters and requires a significant amount of CPU time.
+
+3. **Model Loading**: Loading the entire model into memory is a common bottleneck, especially for models with a large number of parameters.
+
+4. **Batch Processing**: The model is typically trained on batches of data, but inference often involves a single batch at a time, which can be inefficient.
+
+5. **Model Compression**: Most transformer models are highly parameterized, and their efficiency can be improved by compressing the model, which is often difficult to achieve.
+
+6. **Quantization**: While it is sometimes mentioned as a possible solution, quantizing transformer models can be challenging due to the complexity of the attention mechanism.
+
+### Potential Solutions with Quantization
+
+Quantization can help address these challenges by:
+
+1. **Reducing Memory Footprint**: By quantising the model parameters,

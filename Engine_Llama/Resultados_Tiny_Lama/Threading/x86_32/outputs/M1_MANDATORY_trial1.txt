@@ -1,0 +1,14 @@
+Machine learning is a subset of artificial intelligence that focuses on developing systems that can learn and improve over time. It involves the use of algorithms to analyze large datasets, identify patterns, and make predictions. Deep learning, on the other hand, is a more recent subfield of machine learning that focuses on developing systems that can learn from a large amount of data and make complex decisions.
+
+Machine Learning:
+- Inputs (data) are provided to the algorithm, which learns to identify patterns and make predictions based on the given inputs.
+- The algorithm is continually trained on new data to improve its accuracy.
+- The system is typically implemented using a back-end database and a client-side interface.
+
+Deep Learning:
+- Inputs (data) are provided to the algorithm, which learns to identify patterns and make decisions based on the given inputs.
+- The algorithm is continually trained on new data to improve its accuracy.
+- The system is typically implemented using a deep neural network, which is a mathematical model designed to mimic the functioning of the human brain.
+
+In Example:
+Let's say you have a retail store and want to predict how many sales a particular item

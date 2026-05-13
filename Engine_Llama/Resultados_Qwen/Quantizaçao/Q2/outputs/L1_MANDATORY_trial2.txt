@@ -1,0 +1,12 @@
+To provide a comprehensive answer, the following information is needed: 
+- What are the specific challenges when running transformer models on CPU-only systems?
+- How might quantisation help address these challenges?
+- What are the potential benefits of using quantised models over non-quantised models?
+- Are there any specific techniques or optimizations that can be applied to improve performance when running transformer models on CPU-only systems?
+- What are the potential drawbacks of quantising transformer models?
+- Can quantisation be applied to transformer models?
+- How can the memory footprint be reduced when using quantised models?
+- What are the potential benefits of using quantised models?
+- Can quantisation be used to speed up the loading of weights during the decoding phase?
+- How can the performance of transformer models be improved when running on CPU-only systems?
+- Are there any potential drawbacks of quantising transformer models? To provide a comprehensive answer, please include specific information to address these questions appropriately. To address the questions appropriately, please include specific details on the challenges of running transformer models on CPU-only systems and the potential benefits of using quantisation for addressing these challenges. Please also include any specific techniques or optimizations that can be applied to improve performance when running transformer models on CPU-only systems. Additionally, please include potential drawbacks of

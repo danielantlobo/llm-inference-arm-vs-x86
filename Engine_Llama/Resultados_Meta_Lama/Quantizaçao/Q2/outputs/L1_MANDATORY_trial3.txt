@@ -1,0 +1,7 @@
+A. The main challenge is that transformers require a large memory footprint, and quantisation can help by reducing the memory required for each model.
+B. The main challenges are that transformers require repeated loading of weights during the decoding phase and have a large memory footprint, and quantisation can help by reducing the memory required for each model and reducing the number of weight loads.
+C. The main challenges are that transformers require repeated loading of weights during the decoding phase and have a large memory footprint, but quantisation can only reduce the memory required for each model.
+D. The main challenges are that transformers require a large memory footprint and have a large memory footprint but quantisation can only help with memory requirements.
+Answer: B. The main challenges are that transformers require repeated loading of weights during the decoding phase and have a large memory footprint, and quantisation can help by reducing the memory required for each model and reducing the number of weight loads. 
+Reasoning Skill: Inductive Reasoning
+This question requires the test-taker to inductively reason the main challenges when running large transformer models on CPU-only systems and how quantisation can help address these challenges. The correct answer requires the test-taker to understand the context of transformer architecture and its limitations when deployed on CPU-only systems.

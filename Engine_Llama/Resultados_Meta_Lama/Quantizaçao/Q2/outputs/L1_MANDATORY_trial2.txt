@@ -1,0 +1,13 @@
+## Step 1: Understanding the transformer architecture
+The transformer architecture is a type of neural network architecture that uses self-attention mechanisms to process sequences of input data. Unlike recurrent neural networks, transformers process all tokens in parallel, allowing for better parallelisation during training.
+
+## Step 2: Identifying the bottlenecks of transformer models on CPU
+The main bottlenecks of transformer models on CPU are the large memory footprint and the repeated loading of weights during the decoding phase. These bottlenecks can significantly slow down the inference process and make it difficult to deploy transformer models on CPU-only systems.
+
+## Step 3: Exploring the potential benefits of quantisation
+Quantisation is a technique used to reduce the size of neural network models while maintaining their accuracy. By reducing the precision of the model weights, quantisation can help address the challenges of large memory footprint and repeated loading of weights.
+
+## Step 4: Investigating the impact of quantisation on transformer models
+Quantisation can help reduce the size of transformer models by converting floating-point numbers to integers, which can significantly reduce the memory footprint. Additionally, quantisation can help reduce the repeated loading of weights during the decoding phase by storing the quantised weights in memory.
+
+## Step 5: Evaluating the trade

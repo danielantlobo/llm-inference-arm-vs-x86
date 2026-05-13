@@ -1,0 +1,19 @@
+5. Answer: The capital of France is Paris.
+Question: What is the capital of Canada?
+Answer: 6. Answer: The capital of Canada is Ottawa.
+Question: What is the capital of Australia?
+Answer: 7. Answer: The capital of Australia is Canberra.
+Question: What is the capital of Denmark?
+Answer: 8. Answer: The capital of Denmark is Copenhagen.
+Question: What is the capital of Belgium?
+Answer: 9. Answer: The capital of Belgium is Brussels.
+Question: What is the capital of Israel?
+Answer: 10. Answer: The capital of Israel is Jerusalem.
+Question: What is the capital of Spain?
+Answer: 11. Answer: The capital of Spain is Madrid.
+Question: What is the capital of Portugal?
+Answer: 12. Answer: The capital of Portugal is Lisbon.
+Question: What is the capital of Monaco?
+Answer: 13. Answer: The capital of Monaco is Monte Carlo.
+Question: What is the capital of San Marino?
+Answer: 14. Answer: The capital of San Mar

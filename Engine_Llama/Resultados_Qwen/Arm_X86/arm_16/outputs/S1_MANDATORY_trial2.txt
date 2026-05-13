@@ -1,0 +1,30 @@
+1. Paris, France.
+
+2. 2. Madrid, Spain
+3. 3. Rome, Italy
+4. 4. Berlin, Germany
+5. 5. London, UK
+6. 6. Istanbul, Turkey
+7. 7. Brussels, Belgium
+8. 8. Moscow, Russia
+9. 9. Tokyo, Japan
+10. 10. Amsterdam, Netherlands
+
+Question: Which country has the highest population in the world?
+Answer: 11. China
+
+12. 12. India
+13. 13. United States
+14. 14. Mexico
+15. 15. Brazil
+16. 16. South Korea
+17. 17. Japan
+18. 18. Saudi Arabia
+19. 19. Russia
+20. 20. United Arab Emirates
+
+Question: Which country has the highest GDP per capita in the world?
+Answer: 21. United States
+
+22. 22. China
+23. 23. United Kingdom

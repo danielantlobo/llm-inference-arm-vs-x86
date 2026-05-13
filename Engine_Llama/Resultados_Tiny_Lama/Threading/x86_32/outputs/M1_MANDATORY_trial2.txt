@@ -1,0 +1,13 @@
+Machine Learning:
+Machine learning is a set of techniques that enables computers to learn and improve their decision-making from data. It is the process of using algorithms to identify patterns in data and use those patterns to make predictions or recommendations. Machine learning is used in many industries, including finance, healthcare, and retail.
+
+Deep Learning:
+Deep learning is a type of machine learning that involves the use of deep neural networks. Deep learning is used in computer vision, speech recognition, and natural language processing. Deep learning uses neural networks to learn complex patterns from data and can achieve state-of-the-art performance in these applications.
+
+Examples:
+1. Google Image Search: Google uses deep learning to analyze images and identify their categories and content.
+2. Amazon Prime Video: Amazon uses deep learning to recommend movies and TV shows to users based on their viewing history.
+3. Netflix: Netflix uses deep learning to predict which movies and TV shows users will enjoy based on their viewing history.
+
+Key Differences:
+1. Data Required: Deep learning requires a large amount of high-quality data to train the neural network. Machine learning, on the

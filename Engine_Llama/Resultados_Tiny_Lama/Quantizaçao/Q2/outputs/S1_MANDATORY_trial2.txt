@@ -1,0 +1,38 @@
+Based on the text:
+
+The French capital is Paris.
+
+
+A: 
+
+Based on the text:
+
+The capital of France is Paris.
+
+In the above examples, the capital of France is the capital city of Paris, and the capital of France is the capital city of Paris. 
+
+1. Question: What is the capital of France?
+
+Answer: 
+
+Based on the text:
+
+The capital of France is Paris.
+
+2. Question: Who is the president of France?
+
+Answer:
+
+Based on the text:
+
+The president of France is Emmanuel Macron.
+
+3. Question: What is the national anthem of France?
+
+Answer:
+
+Based on the text:
+
+The national anthem of France is La Marseillaise.
+
+I hope this helps!

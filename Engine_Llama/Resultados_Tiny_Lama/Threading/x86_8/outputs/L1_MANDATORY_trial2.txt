@@ -1,0 +1,7 @@
+When running large transformer models on CPU-only systems, the main challenges are the memory footprint of the model and the repeated loading of the weights during the decoding phase. Quantisation can help address these challenges by reducing the memory footprint of the model, which can in turn increase the accuracy of the model.
+
+Quantisation is a process of converting a large model into a smaller model with fixed parameters. This process reduces the memory footprint of the model, making it easier to fit into small CPUs and reducing the need for repeated loading of the weights during the decoding phase.
+
+Quantisation can also be used to improve the performance of the model on CPU-only systems. By reducing the memory footprint of the model, it can be trained faster and more efficiently on CPUs, leading to better inference performance.
+
+One example of a quantised transformer model is the BERT (Bidirectional Encoder Representations from Transformers) model by the Google Research team. BERT is a popular language model that has shown remarkable improvements in performance on a variety of language tasks. By quantising BERT, it was found that the model could be trained faster and more efficiently on CPUs, leading to better

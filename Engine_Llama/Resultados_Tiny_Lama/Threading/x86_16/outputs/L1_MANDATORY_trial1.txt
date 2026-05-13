@@ -1,0 +1,9 @@
+When deploying large transformer models on CPU-only systems, the main bottlenecks are the memory footprint and the repeated loading of weights during the decoding phase.
+
+Quantisation is a technique that helps mitigate these issues by reducing the memory footprint of the model while still maintaining accuracy. Quantisation is a process that converts integer values into binary ones, which can be stored more efficiently than their corresponding integer values. This is done by multiplying the integer values with a fixed number of zeros, which is then rounded down to the next-lower binary value.
+
+Quantisation can help reduce the memory footprint of the model by converting all the input values into binary, which can be stored and accessed in memory without requiring additional memory allocation. This makes it easier to work with large datasets, such as those used in natural language processing applications.
+
+Quantisation can also reduce the repeated loading of weights during the decoding phase by converting all the input tokens into binary, which can be stored and accessed in memory. This reduces the computational overhead of loading the weights into memory and can improve the speed of inference on CPU-only systems.
+
+Overall, quantisation is a useful tool to address the challenges faced when deploy

@@ -1,0 +1,7 @@
+Machine learning (ML) is a branch of artificial intelligence (AI) that focuses on developing algorithms and techniques to solve problems that require large amounts of data. Unlike deep learning, which is a subset of ML, deep learning is a subfield that applies neural networks to solve problems that require a large amount of data.
+
+Deep learning is a type of machine learning that involves creating complex neural networks that can solve problems that are too complex for regular ML algorithms. These networks can be trained on massive amounts of data, which helps them learn patterns and make predictions quickly. Deep learning algorithms have many applications, including image recognition, speech recognition, and natural language processing.
+
+An example of deep learning is Google's DeepMind AI, which has been trained on millions of games played by humans. DeepMind AI can play many games, including Go, Chess, and Atari games, using a neural network that was trained on millions of games played by humans.
+
+In contrast, machine learning is a subset of AI that focuses on developing algorithms and techniques to solve problems using data. Machine learning algorithms are typically more flexible than deep learning algorithms, as they can be trained on a wide variety of data. Machine learning algorithms

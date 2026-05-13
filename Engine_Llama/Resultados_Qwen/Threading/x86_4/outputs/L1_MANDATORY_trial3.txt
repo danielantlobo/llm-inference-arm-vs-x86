@@ -1,0 +1,12 @@
+Transformers have become the standard architecture for large language models because of their ability to process sequences in parallel using self-attention mechanisms. This is particularly beneficial for tasks that require long-range dependencies in the input data, such as text summarization, machine translation, and question answering.
+
+However, running large transformer models on CPU-only systems is not without its challenges. The main bottlenecks are:
+
+1. **Memory Footprint**: Transformer models, especially those used in large language models, require a significant amount of memory to store the weights of the model. Each model has a large number of parameters, and these parameters are typically quantized in a way that balances accuracy and memory usage.
+
+2. **Weight Loading During Decoding**: During the decoding phase (when the model generates text), the model needs to load its weights each time it processes a new token. This can be a significant overhead, especially when the model is large and the number of tokens is high.
+
+To address these challenges, **quantization** can be a powerful technique. Quantization reduces the precision of the weights and activations in a model. This can be particularly useful for CPU-based systems because:
+
+- **Reduced Memory Usage**: Quantized models can be smaller, requiring less memory to store the weights.
+- **F

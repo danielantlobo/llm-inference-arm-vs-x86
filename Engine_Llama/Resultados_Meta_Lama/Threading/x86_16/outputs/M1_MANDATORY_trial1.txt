@@ -1,0 +1,17 @@
+Machine learning and deep learning are two related but distinct concepts in the field of artificial intelligence (AI). 
+Machine learning is a subset of AI that involves training algorithms to make predictions or decisions based on data. 
+The key characteristics of machine learning are: 
+- It involves training algorithms on data to make predictions or decisions. 
+- It can be used for classification, regression, clustering, and other tasks. 
+- It often involves feature engineering and data preprocessing. 
+- It can be applied to a wide range of domains, including image recognition, natural language processing, and time series forecasting. 
+Deep learning, on the other hand, is a subset of machine learning that involves the use of neural networks with multiple layers to analyze data. 
+The key characteristics of deep learning are: 
+- It involves the use of neural networks with multiple layers to analyze data. 
+- It is often used for image and speech recognition tasks. 
+- It requires large amounts of data and computational resources to train. 
+- It can learn complex patterns and relationships in data. 
+Here are examples of each: 
+Machine learning example: 
+- A spam filter that uses a machine learning algorithm to classify emails as spam or not spam based on their content. 
+- The algorithm is trained on a

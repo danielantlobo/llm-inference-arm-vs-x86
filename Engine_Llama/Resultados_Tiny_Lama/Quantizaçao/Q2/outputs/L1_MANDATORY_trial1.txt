@@ -1,0 +1,14 @@
+Challenges:
+1. Memory footprint: Transformers are typically designed to have a memory footprint of around 256MB. This memory footprint is challenging for CPUs due to the limited amount of available physical RAM.
+
+2. Weight loading: For the same reason, the model’s memory footprint is also limited due to the need for an additional layer of weights in each decoding step.
+
+3. Lack of parallelism: Transformers are designed to process all tokens in parallel, which is challenging when running CPUs due to the lack of parallelism.
+
+4. Inference performance: Transformers have proven more effective at capturing long-range dependencies in text, which is challenging when running CPUs due to the need for repetitive loading of weights during the decoding phase.
+
+5. Quantisation: Quantising the model’s weights during inference can help address some of the challenges, such as memory constraints and limited parallelism, by reducing the model’s memory footprint and reducing the need for repeated loading of weights during the decoding phase.
+
+Solution:
+
+To address these challenges, quantisation is a technique that

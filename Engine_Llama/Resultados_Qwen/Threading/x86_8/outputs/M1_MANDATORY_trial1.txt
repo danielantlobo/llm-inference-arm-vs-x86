@@ -1,0 +1,7 @@
+Machine learning and deep learning are both subsets of artificial intelligence (AI) that focus on developing algorithms that can learn from and make decisions based on data. The main difference between the two is the complexity and depth of the models used.
+
+Machine learning is a subset of AI that uses statistical techniques to learn from data. This involves training algorithms to recognize patterns in data and making predictions or classifications based on that data. Examples of machine learning include image and speech recognition, natural language processing, and recommendation systems.
+
+Deep learning, on the other hand, is a subset of machine learning that uses neural networks with multiple layers to learn from data. This allows deep learning models to capture complex patterns and relationships in data, making them particularly effective for tasks such as image and speech recognition, natural language processing, and self-driving cars. An example of a deep learning model is the convolutional neural network (CNN), which is used in image recognition tasks.
+
+In summary, machine learning is a broader term that includes a variety of techniques for learning from data, while deep learning is a more specialized subset that uses neural networks with multiple layers to learn from complex data. Both are essential tools for developing intelligent systems that can process and understand data.

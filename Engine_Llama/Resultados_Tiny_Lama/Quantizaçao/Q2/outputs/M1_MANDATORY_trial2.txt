@@ -1,0 +1,12 @@
+Machine Learning:
+Machine learning is a subset of artificial intelligence that aims to build models and algorithms that can predict, recognize, and even predict human behavior based on data. It involves identifying patterns, relationships, and dependencies between data, and creating models that can predict outcomes based on data.
+
+Deep Learning:
+Deep learning is a subfield of machine learning that focuses on the analysis and modeling of large data sets, such as images, videos, and audio. The idea behind deep learning is to create a network of layers (or "neural networks") that can learn complex patterns and relationships from data.
+
+Examples:
+1. Fashion-MNIST Dataset: A dataset that consists of 60,000 examples of handwritten digits in the fashion industry. The dataset contains 28 x 28 grayscale images of digits 0-9.
+
+2. CIFAR-10 Dataset: A dataset consisting of 10 categories of real-world data, including car, airplane, and bird. The dataset consists of 60,000 examples of 1000 3x3x3 images.
+
+In this

@@ -1,0 +1,11 @@
+1. **Large Memory Footprint**: The main challenge when running large transformer models on CPU-only systems is the model's large memory footprint. This is because transformer models require a significant amount of memory to store their weights, which can lead to memory overflow and slow down the inference process.
+2. **Repeated Loading of Weights**: Another challenge is the repeated loading of weights during the decoding phase. This is because, in CPU-only systems, loading weights from storage into memory can be a time-consuming process, especially for large models.
+
+**Quantisation as a Solution**: Quantisation can help address these challenges in several ways:
+
+*   **Reducing Model Size**: Quantisation techniques, such as integer quantisation or knowledge distillation, can reduce the model's memory footprint by storing weights in a more compact format. This can help alleviate memory overflow issues and speed up the inference process.
+*   **Accelerating Weight Loading**: By reducing the size of the model, quantisation can also accelerate the weight loading process during the decoding phase. This is because there is less data to be loaded into memory, making the process faster.
+
+**Additional Benefits**: Quantisation can also provide additional benefits, such as:
+
+*   **Improved Model Efficiency**: By reducing the precision of the weights, quantisation

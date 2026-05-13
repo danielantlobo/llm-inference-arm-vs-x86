@@ -1,0 +1,16 @@
+In this solution, we'll discuss the challenges of running large transformer models on CPU-only systems and explore how quantisation can help mitigate these challenges.
+
+## Step 1: Identify the Main Challenges of Running Large Transformer Models on CPU-Only Systems
+The main challenges of running large transformer models on CPU-only systems include:
+
+1. **Large Memory Footprint**: Transformer models require significant memory to store their weights and activations, which can be challenging to handle on systems with limited memory.
+2. **Repeated Loading of Weights**: During the decoding phase, the model's weights need to be loaded repeatedly, which can lead to performance bottlenecks and increased latency.
+3. **Inefficient Use of CPU Caches**: The large memory footprint and repeated loading of weights can lead to inefficient use of CPU caches, further exacerbating performance issues.
+
+## Step 2: Explore How Quantisation Can Help Address These Challenges
+Quantisation is a technique that reduces the precision of model weights and activations, allowing for a significant reduction in memory usage. By representing model weights and activations using fewer bits, quantisation can help alleviate the memory constraints of CPU-only systems.
+
+## Step 3: Discuss the Benefits of Quantisation
+Quantisation offers several benefits, including:
+
+1. **Reduced Memory Usage**:

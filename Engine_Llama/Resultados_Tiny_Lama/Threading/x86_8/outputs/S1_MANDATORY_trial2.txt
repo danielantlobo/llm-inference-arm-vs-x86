@@ -1,0 +1,17 @@
+1. The capital of France is Paris.
+Question: 2. Who was the first President of France?
+Answer: 2. The first President of France was Louis XVI.
+Question: 3. What is the national motto of France?
+Answer: 3. The national motto of France is "Liberté, égalité, fraternité."
+Question: 4. What is the national anthem of France?
+Answer: 4. The national anthem of France is "La Marseillaise."
+Question: 5. What is the official language of France?
+Answer: 5. The official language of France is French.
+Question: 6. What is the currency of France?
+Answer: 6. The currency of France is the Euro (EUR).
+Question: 7. What is the capital of Monaco?
+Answer: 7. The capital of Monaco is Monaco.
+Question: 8. What is the national motto of Monaco?
+Answer: 8. The national motto of Monaco is "Monaco – Monte Carlo."
+Question: 9. What is the national anthem of Monaco?
+Answer:

@@ -1,0 +1,7 @@
+Running large transformer models on CPU-only systems faces two main challenges. The first is the large memory footprint of the model, which makes it difficult to fit the entire model into the limited memory available on a CPU. The second is the repeated loading of weights during the decoding phase, which can be time-consuming and can lead to performance bottlenecks.
+
+Quantization, which is the process of reducing the precision of numerical representations, can help address these challenges. By reducing the precision of the model's weights, quantization can significantly reduce the memory footprint of the model. This can be achieved using various techniques, such as quantizing the model to a lower bit-width, such as 8-bit or 16-bit, or quantizing the model using a quantization-aware training (QAT) approach.
+
+Quantization can also help reduce the repeated loading of weights during the decoding phase. By reducing the precision of the model's weights, quantization can reduce the amount of data that needs to be loaded into memory during inference. This can lead to faster inference and improved performance on CPU-only systems.
+
+In summary, quantization can help address the challenges of running large transformer models on CPU-only systems by reducing the memory footprint of the model and reducing the repeated loading of weights during inference. However

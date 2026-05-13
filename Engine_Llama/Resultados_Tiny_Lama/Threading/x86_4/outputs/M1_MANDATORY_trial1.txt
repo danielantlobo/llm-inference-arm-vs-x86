@@ -1,0 +1,7 @@
+Machine learning is a subset of artificial intelligence that focuses on learning from data without human intervention. It uses algorithms to learn from a dataset and identify patterns or relationships between input and output. This process is commonly referred to as classification or regression analysis.
+
+Deep learning, on the other hand, is a subset of machine learning that focuses on learning complex models from large data sets. It uses neural networks, which are artificial neural networks that can learn from data, to identify patterns or relationships. The network is trained by feeding it large datasets to gradually learn more complex patterns.
+
+An example of deep learning is a convolutional neural network (CNN) that is used to recognize handwritten digits in the MNIST dataset. The network is trained using a dataset of thousands of handwritten digits, where each digit is represented as a set of pixels. The network learns to identify patterns in the pixels and make predictions about the corresponding digit.
+
+Machine learning and deep learning have different strengths and weaknesses. Machine learning is typically used for tasks such as predicting future events or identifying patterns in large datasets. Deep learning, on the other hand, is used for tasks such as natural language processing, image recognition, and speech recognition

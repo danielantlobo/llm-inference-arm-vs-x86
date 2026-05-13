@@ -1,0 +1,14 @@
+## Step 1: Understanding the Challenges
+The primary challenges when running large transformer models on CPU-only systems include high memory usage and the repeated loading of weights during the decoding phase. These challenges stem from the transformer architecture's reliance on self-attention mechanisms, which are computationally expensive and memory-intensive.
+
+## Step 2: Quantisation Overview
+Quantisation is a technique used to reduce the memory footprint of models by converting floating-point numbers into smaller integer representations. By reducing the precision of model weights and activations, quantisation can help reduce the memory usage of models, making them more suitable for deployment on systems with limited resources.
+
+## Step 3: Addressing Memory Usage
+Quantisation can address the high memory usage challenge by converting floating-point numbers into smaller integer representations. This can be achieved through techniques like binarization, which converts model weights to binary representations, or through techniques that reduce the precision of activations.
+
+## Step 4: Reducing Weight Loading
+Quantisation can also help address the repeated loading of weights during the decoding phase by reducing the precision of model weights. This can be achieved through techniques like floating-point quantization, which converts model weights into lower-precision floating-point numbers.
+
+## Step 5: Balancing Accuracy and Resource Usage
+The effectiveness of

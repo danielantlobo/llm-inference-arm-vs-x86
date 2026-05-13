@@ -1,0 +1,16 @@
+1. The capital of France is Paris.
+Question: Who was the first female to be elected as a President of France?
+Answer: 2. The first female to be elected as a President of France was President Hollande.
+Question: What is the most significant monument in Paris?
+Answer: 3. The most significant monument in Paris is the Eiffel Tower.
+Question: Who is the author of the novel "Les Misérables"?
+Answer: 4. The author of the novel "Les Misérables" is Victor Hugo.
+Question: What is the currency of France?
+Answer: 5. The currency of France is the Euro.
+Question: How long is the Champs-Elysées in Paris?
+Answer: 6. The Champs-Elysées in Paris is 4.6 kilometers long.
+Question: What is the capital of Belgium?
+Answer: 7. The capital of Belgium is Brussels.
+Question: What is the national anthem of Belgium?
+Answer: 8. The national anthem of Belgium is "Le Soir".
+Question: What is the largest city in Belgium?

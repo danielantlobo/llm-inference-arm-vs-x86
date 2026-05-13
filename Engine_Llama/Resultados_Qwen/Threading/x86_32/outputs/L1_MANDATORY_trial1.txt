@@ -1,0 +1,9 @@
+Transformers are a type of deep neural network architecture that has become the foundation for many modern large language models, including the language models used for natural language processing tasks. In a paper titled 'Attention Is All You Need' published in 2017, Vaswani et al. introduced a new transformer architecture that uses self-attention mechanisms to process all tokens in a sequence in parallel. This allows for better parallelization during training and has been shown to be more effective at capturing long-range dependencies in text compared to recurrent neural networks, which process sequences sequentially.
+
+When deploying large transformer models on CPU-only systems, the main challenges are:
+
+1. **Memory Footprint**: Transformer models, particularly those with a large number of layers, require a significant amount of memory to store the weights and hidden states. This can quickly become a bottleneck when deploying on a system with limited or insufficient memory.
+
+2. **Weight Loading**: During inference, the model needs to load its weights into memory before it can begin processing input. This can be a time-consuming process, especially when the model's size is large.
+
+To address these challenges, quantization techniques can be employed. Quantization involves converting the weights and activations of a neural network into a lower-precision format. This reduces the memory footprint and

@@ -1,0 +1,5 @@
+1. Machine Learning: Machine learning involves using algorithms and statistical models to learn from data. It is used to make predictions or recommendations based on data. Examples of machine learning include machine translation, natural language processing, recommendation systems, and image recognition.
+
+2. Deep Learning: Deep learning involves learning patterns from data by using neural networks. It is used in tasks such as image recognition, speech recognition, natural language processing, and machine translation. An example of deep learning is the Google Translate app.
+
+3. Conclusion: In summary, machine learning and deep learning are two different approaches to machine learning that offer different approaches to building and training neural networks. Deep learning focuses more on learning from data, while machine learning focuses on making predictions or recommendations based on data.

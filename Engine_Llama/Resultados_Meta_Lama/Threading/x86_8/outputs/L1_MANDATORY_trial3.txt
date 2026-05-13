@@ -1,0 +1,11 @@
+The main challenges when running large transformer models on CPU-only systems are the large memory footprint and the repeated loading of weights during the decoding phase. Quantization can help address these challenges by reducing the memory footprint of the model and allowing for faster loading of weights. 
+
+Quantization involves representing the model's weights and activations as smaller, integer values, rather than the full 32-bit floating-point numbers. This reduces the memory footprint of the model and can also reduce the computational requirements during inference. However, quantization can also introduce some loss of precision, which may impact the model's accuracy. 
+
+To address the accuracy loss, researchers and engineers have developed a range of quantization techniques, including: 
+
+1.  **Post-training quantization**: This involves retraining the model after quantization to minimize the accuracy loss. 
+2.  **Quantization-aware training**: This involves training the model with simulated quantization to minimize the accuracy loss. 
+3.  **Dynamic quantization**: This involves dynamically adjusting the precision of the model's weights and activations based on the input data. 
+
+Overall, quantization can be a powerful tool for reducing the memory footprint and computational requirements of large transformer models, while minimizing the impact on accuracy. However, the choice of quantization technique will

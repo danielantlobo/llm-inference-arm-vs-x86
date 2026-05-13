@@ -1,0 +1,11 @@
+Machine Learning (ML) is a subset of Artificial Intelligence (AI) that uses statistical techniques to model and predict data. Its core components include data collection, cleaning, preprocessing, feature engineering, model building, and tuning.
+
+Deep Learning (DL) is a subset of ML that uses neural networks to learn complex patterns from data. Its key components include neural network architecture, training data, optimization algorithms, and model deployment.
+
+The primary difference between ML and DL is that ML is a methodology for modeling data, while DL is a framework for building and deploying models.
+
+An example of ML is predicting sales from customer data. The input data is customer purchase history, and the output is sales. ML algorithms such as regression, classification, and clustering are used to model the relationship between input features and output.
+
+An example of DL is building a neural network for image recognition. The input data is an image, and the output is a predicted category. DL algorithms such as convolutional, pooling, and fully connected networks are used to create the model.
+
+In both ML and DL, there are several core components such as data collection, cleaning, pre

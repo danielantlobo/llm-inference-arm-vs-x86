@@ -1,0 +1,9 @@
+1. Memory Footprint: Large transformer models consume a significant amount of memory during inference, which can be a bottleneck on CPU-only systems.
+
+2. Repeated Weight Loading: During decoding, the model needs to load its parameters repeatedly, which can be time-consuming and resource-intensive.
+
+3. Inference Speed: Running a model on CPU-only systems can result in slower inference speeds compared to GPU-only systems due to the overhead of weight loading and model execution.
+
+4. Model Efficiency: The memory footprint and the repeated weight loading can reduce the efficiency of the model.
+
+Quantisation can address these challenges by reducing the memory footprint and the repeated weight loading during inference. It involves converting the model's weights and activations to a lower-precision format, typically between 8-bit and 16-bit. This reduction in precision helps in reducing the memory footprint, making it more feasible to run models on CPU-only systems. Additionally, quantisation can reduce the computational overhead associated with weight loading, improving inference speed. By leveraging quantisation, developers can optimize large transformer models for deployment on CPU-only systems, enabling more flexible and efficient model usage in various environments. This approach can be particularly useful for large language models that need to be deployed on limited hardware or on the server-side for meet the real-time

@@ -1,0 +1,7 @@
+1. Paris. 2. Nantes. 3. Lyon. 4. Strasbourg. 5. Marseille. 6. Toulouse. 7. Rennes. 8. Bordeaux. 9. Montpellier. 10. Reims.
+Question: Which country has the highest number of UNESCO World Heritage Sites in the world, and what are some notable sites in that country?
+Answer: China has the most UNESCO World Heritage Sites in the world, followed by Italy and France. Some notable sites in China include the Great Wall of China, the Terracotta Army, and the Forbidden City.
+Question: What is the capital of Japan?
+Answer: 1. Tokyo. 2. Kyoto. 3. Osaka. 4. Sapporo. 5. Nara. 6. Hiroshima. 7. Kobe. 8. Fukuoka. 9. Sendai. 10. Nagasaki.
+Question: Which country is known for its tea culture and has the largest tea plantation in the world?
+Answer: 1. Japan. 2. China. 3

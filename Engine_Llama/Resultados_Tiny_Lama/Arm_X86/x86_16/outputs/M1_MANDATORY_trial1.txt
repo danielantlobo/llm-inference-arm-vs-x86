@@ -1,0 +1,8 @@
+Machine learning, also known as supervised learning, is the process of using previously observed data to develop a model that can predict future data based on known characteristics of the data. Deep learning, on the other hand, is a type of machine learning algorithm that learns from unsupervised data, meaning it does not have labels or examples for training. 
+
+Here is an example of deep learning:
+Let's say you have a dataset of images of handwritten digits. You want to classify these digits into different categories such as "0," "1," "2," "3," and "4." You create a model using deep learning and feed it the training data. The model learns to identify the different handwritten digits based on their unique characteristics, such as the size of the "0" and "1," the position of the "2" and "3," and the spacing between the "4"s. When you test the model on new data, it correctly identifies the digits in the new data.
+
+However, deep learning is not limited to just handwritten digits. It can also be used for more complex data such as speech, text, and images.
+
+Overall, deep learning is a powerful tool that

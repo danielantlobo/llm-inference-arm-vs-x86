@@ -1,0 +1,9 @@
+1. Large Memory Footprint: Transformers require large amounts of memory to store model weights and intermediate results during inference. This can be a significant challenge when running on CPU-only systems, as they do not typically have the same level of memory capacity as GPUs.
+
+2. Repeated Loading of Weights: During inference, transformers often need to load model weights multiple times, which can be a time-consuming process. This is particularly problematic for repeated loading of weights during the decoding phase, which can be a bottleneck in inference.
+
+3. Quantisation: Quantisation can help address these challenges by reducing the model's memory footprint and improving inference performance. Quantisation involves converting floating-point numbers to integers or smaller fixed-point numbers. This reduces the model's memory footprint, as it requires less storage space. It also helps improve inference performance by reducing the model's computational complexity, as it can be executed faster on CPU-only systems.
+
+4. Reduced Memory Footprint: Quantisation reduces the model's memory footprint, allowing it to run on CPU-only systems without running out of memory.
+
+5. Improved Inference Performance: Quantisation improves inference performance by reducing the model's computational complexity, allowing it to be executed faster on CPU-only systems. This is particularly important for the repeated loading of weights during the decoding

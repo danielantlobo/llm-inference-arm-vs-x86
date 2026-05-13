@@ -1,0 +1,13 @@
+Machine learning and deep learning are both subfields of artificial intelligence that involve teaching machines to learn from data without explicit programming. However, there are key differences between the two.
+
+Key differences between machine learning and deep learning:
+
+1. Number of layers: Machine learning algorithms typically use a single layer, while deep learning algorithms use multiple layers. Deep learning is a subset of machine learning that uses neural networks with multiple layers.
+
+2. Complexity: Deep learning algorithms are more complex than machine learning algorithms. They require more data and computational power to train and can produce more accurate results.
+
+3. Applications: Deep learning is commonly used in image and speech recognition, natural language processing, and game playing. Machine learning can be used in a wide range of applications, including fraud detection, recommendation systems, and predictive analytics.
+
+Example of machine learning: A machine learning algorithm can be used to predict the likelihood of a loan applicant defaulting on a loan. The algorithm analyzes historical data on past loan applicants and uses statistical methods to identify patterns and predict the likelihood of default.
+
+Example of deep learning: A deep learning algorithm can be used to recognize objects in images. The algorithm is trained on a large dataset of images and uses multiple layers to recognize objects based on patterns in the data. For example, a deep learning

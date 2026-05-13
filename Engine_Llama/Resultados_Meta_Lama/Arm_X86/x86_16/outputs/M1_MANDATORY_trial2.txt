@@ -1,0 +1,17 @@
+Machine learning and deep learning are both subfields of artificial intelligence (AI) that deal with the development of algorithms that can learn and improve from experience without being explicitly programmed. However, they differ in their approach, complexity, and application.
+
+**Machine Learning:**
+
+Machine learning is a broader field that encompasses a range of techniques for training algorithms to make predictions or decisions based on data. It involves using statistical models and algorithms to identify patterns and relationships in data, and to make predictions or decisions based on those patterns.
+
+Example: **Credit Risk Assessment**
+
+A bank wants to develop a system to assess the credit risk of loan applicants. It collects data on the applicants, including their credit history, income, and employment status. A machine learning algorithm is trained on this data to predict the likelihood of default for each applicant. The algorithm uses statistical models and techniques, such as logistic regression or decision trees, to identify the most relevant factors that contribute to credit risk.
+
+**Deep Learning:**
+
+Deep learning is a subfield of machine learning that focuses on the use of neural networks, which are inspired by the structure and function of the human brain. Deep learning algorithms use multiple layers of interconnected nodes (neurons) to learn and represent complex patterns in data.
+
+Example: **Image Recognition**
+
+A

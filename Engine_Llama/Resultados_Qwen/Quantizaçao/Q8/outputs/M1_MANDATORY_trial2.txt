@@ -1,0 +1,11 @@
+Machine learning is a subset of artificial intelligence that involves the development of algorithms that enable computers to learn from and make predictions on data without being explicitly programmed. It involves training the algorithm on a dataset to identify patterns and make decisions based on those patterns. Some of the key differences between machine learning and deep learning are:
+
+1. Complexity: Deep learning is a subset of machine learning that involves the use of neural networks with multiple layers to learn complex patterns in data.
+
+2. Data requirements: Deep learning typically requires large amounts of data to train the neural network, while machine learning algorithms can work with smaller amounts of data.
+
+3. Computational requirements: Deep learning algorithms require more computational power and memory to train, while machine learning algorithms can be implemented on a wider range of hardware.
+
+An example of machine learning is using a machine learning algorithm to predict which customers are likely to churn from a business. The algorithm would be trained on historical data, such as customer behavior, demographics, and past churn rates, to identify patterns and make predictions about future churn.
+
+An example of deep learning is using a neural network with multiple layers to recognize images from a dataset of images. The neural network would be trained on a large dataset of images, and would use the patterns in the images to identify objects, faces,

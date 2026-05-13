@@ -1,0 +1,7 @@
+Machine learning is a subset of artificial intelligence, which involves using algorithms to learn patterns and make predictions from data. It can be used to automate tasks such as recommending products, forecasting prices, and identifying trends in data.
+
+Deep learning, on the other hand, involves using neural networks to learn complex patterns from data. It can be used to create intelligent systems such as self-driving cars, chatbots, and machine translation.
+
+An example of deep learning is Google's TensorFlow library, which is used to train neural networks for various tasks, such as image recognition, speech recognition, and natural language processing.
+
+Machine learning and deep learning are two complementary approaches to solving complex problems. Machine learning can be used to build more complex models that can make predictions or learn patterns, while deep learning can be used to create more complex models that can learn complex patterns from data.

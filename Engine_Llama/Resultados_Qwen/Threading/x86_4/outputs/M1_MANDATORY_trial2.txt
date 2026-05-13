@@ -1,0 +1,9 @@
+Machine learning is a subset of artificial intelligence that involves the development of algorithms and models that enable computers to learn and improve their performance on a specific task without explicit programming. Deep learning is a type of machine learning that involves the use of neural networks with multiple layers to learn features from raw data. 
+
+One key difference between machine learning and deep learning is the number of layers in the neural network. While machine learning can use neural networks with varying numbers of layers, deep learning specifically refers to neural networks with multiple hidden layers. This allows deep learning to learn more complex features and patterns from data. 
+
+Another difference is the level of abstraction used by the model. Machine learning models can be simpler and more focused on specific tasks, while deep learning models can be more complex and can learn more abstract features. 
+
+An example of machine learning is using a linear regression model to predict house prices based on features such as the number of bedrooms and bathrooms. An example of deep learning is using a convolutional neural network (CNN) to classify images of animals based on their features such as the number of legs and fur type. 
+
+In summary, machine learning is a general term for algorithms that enable computers to learn and improve performance on a specific task without explicit programming, while deep learning is a subset of machine

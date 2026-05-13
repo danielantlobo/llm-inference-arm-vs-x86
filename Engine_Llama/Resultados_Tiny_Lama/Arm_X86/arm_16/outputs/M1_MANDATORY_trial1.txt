@@ -1,0 +1,13 @@
+Machine learning and deep learning are both subfields of artificial intelligence (AI) that enable computers to learn from data without being explicitly programmed. However, they differ in their approaches, complexity, and applications.
+
+**Machine Learning:**
+
+Machine learning involves training algorithms to learn from data and make predictions or decisions based on that data. It relies on feature engineering, where the input data is transformed into a format that can be understood by the algorithm. Machine learning can be categorized into supervised, unsupervised, and reinforcement learning.
+
+Example: Spam Filter. A machine learning algorithm can be trained to recognize patterns in email content and identify spam emails. The algorithm learns from a labeled dataset of spam and non-spam emails to make predictions on new, unseen emails.
+
+**Deep Learning:**
+
+Deep learning is a subset of machine learning that uses neural networks with multiple layers to analyze data. These neural networks are inspired by the structure and function of the human brain and are capable of learning complex patterns in data. Deep learning is particularly useful for image and speech recognition tasks.
+
+Example: Image Classification. A deep learning algorithm, such as a convolutional neural network (CNN), can be trained to classify images into different categories (e.g., animals, vehicles, buildings). The algorithm learns to recognize features in the

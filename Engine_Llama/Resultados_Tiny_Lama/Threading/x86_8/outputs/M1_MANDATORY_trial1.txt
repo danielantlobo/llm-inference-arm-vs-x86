@@ -1,0 +1,9 @@
+Machine learning is a branch of artificial intelligence that enables computers to learn from data without being programmed with specific rules. Machine learning algorithms work on large datasets to identify patterns and make predictions based on them. It is commonly used in areas like image recognition, text analytics, and predictive maintenance.
+
+Deep learning, on the other hand, is a subfield of machine learning that focuses on developing artificial neural networks, also known as deep convolutional neural networks, to learn complex patterns from data. Deep learning algorithms use multiple layers of neural networks, allowing them to recognize complex patterns and make predictions with high accuracy. It is commonly used in areas like image recognition, natural language processing, and speech recognition.
+
+Examples of Deep Learning:
+
+1. Image recognition: Amazon's Amazon Rekognition uses deep learning to identify faces in images and videos. Google's TensorFlow Lite and Apple's Core ML also use deep learning for image recognition.
+
+2. Natural Language Processing (NLP): Google's Gboard uses NLP to understand text input, allowing users to send messages, search for information, and send emails. Facebook's WhatsApp uses NLP to understand and translate messages.

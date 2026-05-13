@@ -1,0 +1,13 @@
+The main challenges in running large transformer models on CPU-only systems include:
+
+1.  **Memory Footprint:** Large transformer models have a massive memory footprint due to the size of their weights and the intermediate computations required during inference. This can lead to memory exhaustion when dealing with batch sizes that are too large for the available memory.
+
+2.  **Weight Loading During Decoding:** Transformers have a large number of parameters, and during inference, these parameters need to be loaded into memory repeatedly. This can lead to significant slowdowns due to the overhead of loading weights from disk to memory.
+
+3.  **Computational Intensity:** The computational intensity of transformer models, particularly during self-attention layers, can be very high. This is because each element of the input sequence attends to all other elements simultaneously, leading to a quadratic number of operations in the sequence length.
+
+Quantisation, a technique used in deep learning, can help address these challenges by reducing the precision of the model's weights and activations. This reduces the memory footprint and the computational intensity of the model. However, quantisation also requires careful tuning to ensure that the model's performance is not significantly impacted.
+
+Quantisation can help address the challenges of running large transformer models on CPU-only systems in several ways:
+
+1.

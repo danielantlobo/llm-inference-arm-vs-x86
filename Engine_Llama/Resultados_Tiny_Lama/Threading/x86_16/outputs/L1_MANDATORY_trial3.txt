@@ -1,0 +1,7 @@
+The main challenges when running large transformer models on CPU-only systems are:
+1. Large memory footprint: Transformers require a lot of memory, typically around 2-3 GB, to store their weights. This can be a problem for systems with small amounts of memory, particularly for smaller models.
+2. Repeated loading of weights during inference: During inference, the model needs to re-train on all the data it has seen during training, which can be a significant bottleneck.
+
+To address these challenges, quantisation is a technique that reduces the memory footprint of the model by reducing the bitwidth of the weights. This is done by dividing the weights into multiple, smaller sub-weights with different bitwidths.
+
+When using quantisation with transformer models, the main challenge is to ensure that the bitwidth of the model does not degrade the performance of the model. One way to mitigate this is to use a larger bitwidth for some of the sub-weights than others. This is done by using the `quant_bits` parameter in PyTorch when constructing the `torch.nn.Module` that contains the transformer model.

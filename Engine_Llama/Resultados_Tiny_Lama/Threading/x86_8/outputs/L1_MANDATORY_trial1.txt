@@ -1,0 +1,7 @@
+Quantisation is a process of converting integer-based values into floating-point numbers. It is used in modern CPUs to reduce the memory footprint of arithmetic operations by scaling the values in the memory. The process of quantisation involves dividing the number into a specified number of bins, and each bin is assigned a scaled value. The scaled values are then stored in the CPU’s memory, reducing the memory footprint of the arithmetic operations.
+
+Quantisation has proven to be effective in mitigating the main bottlenecks of large transformer models, especially in CPU-only systems. When quantising the memory footprint of transformers, it becomes easier to fit them into the CPU’s memory. In the case of large memory, quantisation allows for reducing the memory footprint of the model during inference, which in turn reduces the time required to decode the model’s predictions.
+
+Quantisation also helps with reducing the number of load operations in the decoding phase. The decoding phase involves loading the weights of the model, and the load operations are the bottlenecks in this phase. Quantisation allows the model to be loaded more efficiently, leading to better inference performance.
+
+Overall, quant

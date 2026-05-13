@@ -1,0 +1,17 @@
+1. The capital of France is Paris.
+Question: 2. Who is the current Prime Minister of France?
+Answer: 2. The current Prime Minister of France is Édouard Philippe.
+Question: 3. What is the name of the President of France?
+Answer: 3. The name of the President of France is Emmanuel Macron.
+Question: 4. What is the official language of France?
+Answer: 4. The official language of France is French.
+Question: 5. What is the capital of Belgium?
+Answer: 5. The capital of Belgium is Brussels.
+Question: 6. What is the name of the Prime Minister of Belgium?
+Answer: 6. The name of the Prime Minister of Belgium is Alexander De Croo.
+Question: 7. What is the official language of Belgium?
+Answer: 7. The official language of Belgium is Dutch and French.
+Question: 8. What is the capital of the Netherlands?
+Answer: 8. The capital of the Netherlands is Amsterdam.
+Question: 9. What is the name of the Prime Minister of the Netherlands?
+Answer:

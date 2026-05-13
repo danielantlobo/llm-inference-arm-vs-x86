@@ -1,0 +1,14 @@
+Machine learning and deep learning are both subfields of artificial intelligence (AI) that enable systems to learn from data without being explicitly programmed. The key differences between them lie in their complexity, architecture, and applications.
+
+Machine learning:
+- Involves algorithms that can learn from data, make decisions, and improve their performance over time.
+- Uses a wide range of algorithms, including decision trees, random forests, support vector machines (SVMs), and k-nearest neighbors (KNN).
+- Typically requires manual feature engineering, where the data is preprocessed to extract relevant features.
+- Is often used for tasks such as classification, regression, clustering, and dimensionality reduction.
+
+Example: A bank uses a machine learning algorithm to predict customer churn based on demographic data and transaction history. The algorithm is trained on a dataset of past customer behavior and uses decision trees to identify the most significant factors contributing to churn.
+
+Deep learning:
+- A subfield of machine learning that involves the use of artificial neural networks (ANNs) with multiple layers to learn complex patterns in data.
+- Employs techniques such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), and long short-term memory (LSTM) networks.
+- Can automatically learn relevant features from raw data,

@@ -1,0 +1,13 @@
+Running large transformer models on CPU-only systems presents several main challenges, including:
+
+1. **Memory Footprint**: Transformer models have a significant memory footprint due to their architecture. This is especially true for large models like BERT, GPT-3, or other large language models (LLMs). The large number of parameters and the need to store the entire model for inference or fine-tuning can lead to memory issues when deploying on CPU-only systems.
+
+2. **Repetitive Weight Loading**: During the decoding phase of inference, transformers load weights from disk multiple times. This can be particularly problematic because it adds unnecessary overhead and can lead to significant latency if the weights are not preloaded efficiently.
+
+3. **Parallelization**: While transformers process all tokens in parallel, the large size of the model makes it challenging to parallelize the workload effectively. This can result in suboptimal performance due to inefficiencies in parallel execution.
+
+4. **Training Overhead**: Training a large transformer model on CPU can also be resource-intensive. The need to compute gradients and backpropagate through the entire model during each training step adds significant overhead.
+
+5. **Latency**: Running inference on CPU can introduce latency due to the need to load weights and compute operations in a sequential manner.
+
+Quantization

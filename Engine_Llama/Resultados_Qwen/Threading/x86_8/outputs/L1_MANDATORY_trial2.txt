@@ -1,0 +1,13 @@
+Transformers are a type of neural network architecture, designed to handle large amounts of input data and process it efficiently by utilizing self-attention mechanisms to capture long-range dependencies. However, running large transformer models on CPU-only systems can present several challenges, especially for memory usage and computational efficiency. Here are the main challenges and how quantization might help address them:
+
+### Main Challenges:
+
+1. **Memory Footprint**:
+   - **Large Model Size**: Large transformer models often have millions or even billions of parameters, which requires significant memory to store. Even if only a fraction of the model is used for inference, the entire model must be loaded into memory.
+   - **Efficient Memory Management**: Large models require efficient memory management to avoid memory leaks or excessive memory usage during inference. This includes managing activations, gradients, and other tensors.
+
+2. **CPU Performance**:
+   - **CPU Compute Bottleneck**: While CPUs are capable of handling large datasets, they are not optimized for the specific computations required by transformer models. The CPU may struggle with the high computational intensity involved in self-attention mechanisms and softmax operations, leading to suboptimal performance.
+
+3. **Load and Save Operations**:
+   - **Repeated Weights Loading**: Transformers often need to load model parameters multiple times during

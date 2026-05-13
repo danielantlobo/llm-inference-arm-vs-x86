@@ -1,0 +1,7 @@
+Machine learning and deep learning are both subfields of artificial intelligence that deal with the development of algorithms and models that enable computers to learn from and make decisions based on data. However, there are some key differences between the two.
+
+One key difference is the number of layers in the neural network. Machine learning models typically have a single hidden layer, while deep learning models have multiple hidden layers. This allows deep learning models to capture more complex patterns in the data and make more accurate predictions.
+
+An example of a machine learning model is a linear regression model. This model is used to predict a continuous output based on a set of input features. For example, a model might be trained to predict the price of a house based on its size, location, and other factors.
+
+An example of a deep learning model is a convolutional neural network (CNN). This model is commonly used for image recognition tasks. For example, a CNN might be trained to recognize different types of animals in an image. The model takes an image as input and uses multiple layers to extract features from it, such as edges, shapes, and textures. These features are then combined to make a final prediction about the animal in the image.

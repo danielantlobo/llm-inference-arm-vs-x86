@@ -1,0 +1,21 @@
+To illustrate, let’s examine a transformer architecture with a few components:
+
+- The input sequence is encoded into a fixed-length vector using a linear transformation.
+- The self-attention mechanism is used to compute the attention score between the input vector and the encoded vector.
+- The encoded vector is then transformed back into a fixed-length vector using a linear transformation.
+- Finally, the decoded output sequence is output.
+
+For inference on CPU, quantisation could potentially help by reducing the size of the model and its parameters, thereby mitigating the memory and speed bottlenecks. To demonstrate, let’s consider a transformer architecture with a few components:
+
+- The input sequence is encoded into a vector using a linear transformation.
+- The attention mechanism is used to compute the attention score between the input vector and the encoded vector.
+- The encoded vector is transformed back into a fixed-length vector using a linear transformation.
+- The decoded output sequence is output.
+
+The transformer architecture can be further visualised as follows:
+
+```
+Input sequence: [1, 2, 3, 4, 5]
+Encoded vector: [1, 1, 1, 1, 1]
+Attention score: [1, 0, 1, 1, 1]
+Encoded vector: [

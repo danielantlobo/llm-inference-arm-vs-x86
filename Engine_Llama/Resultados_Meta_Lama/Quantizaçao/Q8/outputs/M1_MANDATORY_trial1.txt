@@ -1,0 +1,14 @@
+Machine Learning (ML) and Deep Learning (DL) are two subsets of Artificial Intelligence (AI) that enable computers to learn from data without being explicitly programmed. While they share some similarities, they differ in their approach, complexity, and applications.
+Key differences between Machine Learning and Deep Learning:
+1. Complexity:
+Machine Learning algorithms are generally simpler and more shallow, using a few layers to process data. Deep Learning algorithms, on the other hand, use multiple layers (typically more than 2) to learn complex patterns in data.
+2. Architecture:
+Machine Learning algorithms often use traditional feedforward neural networks or decision trees. Deep Learning algorithms use more complex architectures, such as Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), or Long Short-Term Memory (LSTM) networks.
+3. Training data:
+Machine Learning algorithms typically require smaller datasets and are more prone to overfitting. Deep Learning algorithms require larger datasets and are more robust to overfitting.
+4. Computational resources:
+Machine Learning algorithms are generally faster to train and require less computational power. Deep Learning algorithms require more powerful GPUs and longer training times.
+5. Applications:
+Machine Learning is often used for simple tasks, such as:
+* Spam filtering
+* Image classification

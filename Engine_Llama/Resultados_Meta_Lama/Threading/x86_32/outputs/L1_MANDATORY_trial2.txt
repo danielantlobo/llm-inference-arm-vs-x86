@@ -1,0 +1,8 @@
+## Step 1: Identify the main challenges of running large transformer models on CPU-only systems.
+The main challenges of running large transformer models on CPU-only systems include the large memory footprint of the models and the repeated loading of weights during the decoding phase. These challenges are due to the transformer architecture's reliance on self-attention mechanisms that require a significant amount of memory to store the model's weights and the input sequence.
+
+## Step 2: Understand the role of quantisation in addressing the challenges of running transformer models on CPU-only systems.
+Quantisation is a technique used to reduce the precision of the model's weights and activations, which can significantly reduce the memory footprint of the model. This reduction in memory footprint can make it possible to run large transformer models on CPU-only systems without running out of memory. Additionally, quantisation can also reduce the number of memory accesses during the decoding phase, which can improve the performance of the model.
+
+## Step 3: Explain how quantisation can help reduce the memory footprint of transformer models.
+Quantisation works by representing the model's weights and activations using a smaller number of bits. This can be done using techniques such as uniform quantisation, where the weights are represented as integers, or dynamic quantisation, where the weights are represented as integers

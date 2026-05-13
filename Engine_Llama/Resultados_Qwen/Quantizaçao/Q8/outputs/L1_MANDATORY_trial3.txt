@@ -1,0 +1,9 @@
+When running large transformer models on CPU-only systems, the main challenges include:
+1. Memory Footprint: Transformers have a large memory footprint, which can be a significant challenge when running on low-memory devices like CPUs. This is because transformers require a lot of memory to store the model's parameters and intermediate results during the decoding phase.
+2. Weight Loading: During inference, transformers need to load their weights multiple times to process the input data. This can be a significant bottleneck, especially for models with large parameters.
+3. Latency: Transformers have a latency overhead due to their self-attention mechanism, which can be a problem for applications that require real-time processing.
+Quantisation can help address these challenges by:
+1. Reducing Memory Footprint: Quantisation can reduce the memory footprint of the model by reducing the number of parameters to be stored. This can be particularly useful for models with large memory footprints.
+2. Reducing Weight Loading: Quantisation can reduce the number of parameters that need to be loaded during inference, reducing the latency overhead of the model.
+3. Improving Latency: Quantisation can reduce the latency overhead of the model, making it more suitable for real-time applications.
+Overall, quantisation can be a powerful tool for reducing the memory footprint,

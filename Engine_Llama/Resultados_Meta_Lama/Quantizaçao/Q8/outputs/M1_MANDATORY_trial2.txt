@@ -1,0 +1,7 @@
+Machine learning and deep learning are two subsets of artificial intelligence (AI) that are often used interchangeably, but they have distinct differences in terms of their approaches, complexities, and applications.
+Machine Learning:
+Machine learning is a subset of AI that enables computers to learn from data without being explicitly programmed. It involves training algorithms on labeled data to make predictions or decisions based on patterns and relationships in the data. Machine learning is a broad field that encompasses various techniques, including supervised, unsupervised, and reinforcement learning.
+Example: A company uses machine learning to develop a recommendation system that suggests products to customers based on their past purchases and browsing history. The system uses historical data to learn the patterns of customer behavior and makes predictions about what products they are likely to be interested in.
+Deep Learning:
+Deep learning is a subset of machine learning that is inspired by the structure and function of the human brain. It uses neural networks with multiple layers to analyze complex data and learn representations of the data. Deep learning is particularly effective for image and speech recognition tasks, natural language processing, and other applications where the data is high-dimensional and complex.
+Example: A company uses deep learning to develop an image recognition system that can identify objects in images. The system uses a convolutional neural network (CNN)

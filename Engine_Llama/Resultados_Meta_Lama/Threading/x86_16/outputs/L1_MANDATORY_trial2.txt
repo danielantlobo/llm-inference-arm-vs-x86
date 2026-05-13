@@ -1,0 +1,14 @@
+The main challenges when running large transformer models on CPU-only systems are:
+
+1.  Memory footprint: Transformers have a large number of parameters due to the self-attention mechanism, which requires storing the entire input sequence in memory. This can lead to out-of-memory errors, especially for long sequences.
+2.  Weight loading: During the decoding phase, the model needs to load its weights repeatedly, which can lead to significant overhead due to the large number of parameters.
+3.  Computation: The self-attention mechanism requires computing dot products between the query and key vectors, which can be computationally expensive.
+
+Quantisation can help address these challenges by reducing the precision of the model's weights and activations. This can be done in two ways:
+
+1.  Weight quantisation: By representing the model's weights using lower precision (e.g., 8-bit integers), the memory footprint can be reduced, and the number of parameters can be decreased.
+2.  Activation quantisation: By representing the model's activations using lower precision, the number of computations required for the self-attention mechanism can be reduced.
+
+Quantisation can help in the following ways:
+
+*   **Reduced memory footprint**: By representing the model's weights and activations using lower precision, the memory required to

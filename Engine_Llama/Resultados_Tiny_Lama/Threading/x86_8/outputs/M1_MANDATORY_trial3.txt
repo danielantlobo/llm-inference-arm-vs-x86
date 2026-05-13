@@ -1,0 +1,7 @@
+Machine Learning (ML) is a data-driven approach that enables computers to learn from data without being explicitly programmed. In contrast, Deep Learning is a more complex method that involves creating a neural network that can mimic the structure and function of human cognitive abilities. Here are the key differences between the two:
+
+1. Learning: In ML, the system learns by observing a dataset and making predictions based on that data. In Deep Learning, the system learns by creating a neural network that can mimic the structure and function of human cognitive abilities such as recognition, categorization, and decision-making.
+
+2. Architecture: In ML, the system is typically designed to work with a predefined set of input/output pairs. In Deep Learning, the system is designed to learn from data and to perform unsupervised or supervised learning, which means it can work with any dataset.
+
+3. Training: In both ML and Deep Learning, there are two phases: training and testing. In ML, the system is trained on a dataset with pre-defined input/output pairs. In Deep Learning, the system is trained on a dataset with pre-defined input/output pairs and is also trained

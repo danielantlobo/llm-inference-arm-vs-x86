@@ -1,0 +1,26 @@
+Machine learning and deep learning are two related but distinct fields of artificial intelligence. Machine learning involves the use of algorithms to learn from data and improve their performance. Deep learning is a subset of machine learning that uses neural networks to learn from data, which allows it to improve its performance with more complex data. For example, a machine learning algorithm can use a decision tree to classify emails as spam or not spam, while a deep learning algorithm can use a neural network to classify emails as spam or not spam based on a much larger set of data.
+```python
+# Machine learning example
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+
+# Load data
+data = pd.read_csv('data.csv')
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(data.drop('target', axis=1), data['target'], test_size=0.25)
+
+# Train a machine learning model
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+# Evaluate the model
+accuracy = model.score(X_test, y_test)
+print('Accuracy:', accuracy)
+```
+
+```python
+# Deep learning example
+import pandas as pd
+from tensorflow.keras.models

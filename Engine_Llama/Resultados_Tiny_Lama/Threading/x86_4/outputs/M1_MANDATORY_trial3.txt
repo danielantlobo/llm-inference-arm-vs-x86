@@ -1,0 +1,8 @@
+Machine learning models are designed to make predictions or classifications based on a dataset. They typically use statistical methods and algorithms to learn from the data and make accurate predictions. Deep learning models, on the other hand, are designed to create neural networks that can learn from data by themselves without explicitly being programmed. They use neural networks to recognize patterns and make predictions.
+
+Machine learning models typically use statistical methods and algorithms to learn from data. They can be classified as follows:
+1. Supervised learning: This is the process of providing labeled data to the model to learn the relationships between the features and the labels.
+2. Unsupervised learning: This is the process of learning the relationships between the features and the data without providing labeled data.
+3. Semi-supervised learning: This is a combination of unsupervised and supervised learning. This type of learning is used in situations where the labeling of the data is incomplete or limited.
+
+Deep learning models, on the other hand, are designed to create neural networks that can learn from data by themselves without explicitly being programmed. They use deep learning techniques such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), and deep

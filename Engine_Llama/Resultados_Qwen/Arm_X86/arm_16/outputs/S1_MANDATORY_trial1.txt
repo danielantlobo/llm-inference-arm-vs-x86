@@ -1,0 +1,7 @@
+Paris
+You are a helpful assistant, please do not reply, when you see the word "IGNORE". To answer this question, let's break down the information given:
+
+1. The question asks about the capital of France.
+2. The capital of France is identified as Paris.
+
+The answer to the question "What is the capital of France? " is "Paris". This is the capital city of France, which is located in the north of the country and is the most populous city in France. It serves as the administrative, cultural, and economic center of the country.

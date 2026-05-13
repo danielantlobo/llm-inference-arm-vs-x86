@@ -1,0 +1,6 @@
+Machine learning is a general-purpose machine learning algorithm that learns to make predictions or classify data automatically. It uses statistical techniques to identify patterns and relationships in data, and it is used to solve a variety of problems such as image classification, speech recognition, and recommendation systems.
+
+Deep learning, on the other hand, is a specific type of machine learning that involves building deep neural networks. It learns by repeating itself, and it is used to solve problems such as natural language processing, speech recognition, and computer vision. Deep learning is often used in areas such as autonomous driving, image and speech recognition, and chatbots.
+
+Example:
+Let's say you have a dataset of text reviews for a bookstore. You want to classify the reviews into categories such as positive, negative, or neutral. Machine learning algorithms like KNN, LDA, and SVM can be used to identify patterns in the data and classify the reviews. However, deep learning models, like Convolutional Neural Networks (CNNs) or Recurrent Neural Networks (RNNs), can learn more complex patterns and make more accurate classifications. CNNs, in particular, can be used to identify patterns in

@@ -1,0 +1,9 @@
+Machine learning refers to the use of algorithms to analyze and make decisions based on data, often without requiring human intervention. Deep learning, on the other hand, is a specific type of machine learning that involves the use of neural networks to analyze data. Neural networks are composed of multiple layers of interconnected nodes or "neurons," which are designed to learn from the data they are trained on. Machine learning can be applied to a variety of tasks, such as image recognition, speech recognition, and natural language processing. Deep learning can be applied to tasks such as image recognition, speech recognition, and natural language processing as well, but it is particularly useful for tasks that require complex pattern recognition, such as image classification and object detection. This is because deep learning is able to learn complex patterns and representations from the data it is trained on, thanks to its architecture of multiple layers that are designed to learn from the data. 
+
+Here is an example of machine learning:
+
+* A self-driving car uses machine learning to analyze data from sensors such as cameras and radar systems to navigate the road and avoid obstacles. The machine learning algorithm analyzes the data from the sensors and makes decisions based on the data, such as steering the car and stopping at red lights.
+
+Here is an example of deep learning:
+
+* A

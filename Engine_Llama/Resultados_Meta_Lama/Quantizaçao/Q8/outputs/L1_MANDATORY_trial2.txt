@@ -1,0 +1,15 @@
+The main challenges when running large transformer models on CPU-only systems are:
+
+1.  Memory Footprint: Transformer models have a large memory footprint due to the size of their weights, which can be tens of gigabytes. This makes it challenging to run them on systems with limited memory. Even when models are split into smaller chunks, loading and storing these chunks can take significant time.
+
+2.  Weights Loading: During the decoding phase, the model loads its weights multiple times. This repeated loading can slow down the inference process.
+
+Quantisation can help address these challenges by reducing the precision of the model's weights and activations. Here are some ways quantisation can help:
+
+1.  Reduced Memory Footprint: By reducing the precision of the model's weights and activations, quantisation can reduce the memory footprint of the model. This makes it possible to run larger models on systems with limited memory.
+
+2.  Faster Weights Loading: With quantised weights, the model only needs to load a reduced set of values during the decoding phase, which can speed up the inference process.
+
+3.  Faster Computation: Quantisation can also reduce the computational cost of matrix multiplications and other operations by reducing the number of bits used to represent the weights and activations.
+
+There are different

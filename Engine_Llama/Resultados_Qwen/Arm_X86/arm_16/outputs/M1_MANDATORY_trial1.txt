@@ -1,0 +1,13 @@
+1. Machine Learning vs Deep Learning:
+
+Machine learning is a subset of artificial intelligence that enables a system to learn from data and improve its performance without being explicitly programmed. Machine learning algorithms are designed to make predictions or decisions based on historical data. For example, a machine learning algorithm can be trained to predict whether a customer is likely to buy a product based on their past behavior.
+
+Deep learning is a subfield of machine learning that focuses on artificial neural networks with multiple layers. Deep learning algorithms are designed to learn from raw data and make predictions or decisions based on patterns and features in the data. For example, a deep learning algorithm can be trained to recognize images or speech by analyzing the features of the data.
+
+2. Key Differences:
+
+a. Complexity: Deep learning algorithms are generally more complex than machine learning algorithms due to their multiple layers of artificial neural networks. However, this complexity also allows them to learn from large amounts of data and make more accurate predictions.
+
+b. Applications: Deep learning is more commonly used in applications that require high accuracy, such as image and speech recognition, natural language processing, and autonomous driving. Machine learning can be used in a wide range of applications, from fraud detection to personalized recommendations.
+
+c. Data requirements: Deep learning algorithms require large amounts of data to

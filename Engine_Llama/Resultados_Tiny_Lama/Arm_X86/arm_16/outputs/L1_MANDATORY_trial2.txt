@@ -1,0 +1,13 @@
+1. **Large Memory Footprint**: The transformer architecture requires significant memory to store the model's weights, input sequence, and attention weights. This can be a challenge for CPU-only systems with limited memory, leading to memory overflow and slower training times.
+
+2. **Repeated Loading of Weights**: During the decoding phase, the model needs to load its weights repeatedly, which can be time-consuming and inefficient, especially for large models.
+
+Quantisation can help address these challenges in several ways:
+
+- **Reducing Model Size**: Quantising the model can reduce its memory footprint, allowing it to fit within the memory constraints of CPU-only systems.
+
+- **Faster Weights Loading**: Quantised models typically require fewer operations to compute, which can lead to faster weight loading during the decoding phase.
+
+- **Improved Inference Speed**: Quantisation can also improve inference speed by reducing the number of computations required to generate predictions.
+
+By applying quantisation techniques to transformer models, researchers and developers can overcome the memory constraints and slow inference speeds associated with CPU-only systems, making it more feasible to deploy large transformer models in resource-constrained environments. Quantisation can be applied using various techniques, such as post-training quantisation, quantisation-aware training, or mixed-precision training, each with its own trade

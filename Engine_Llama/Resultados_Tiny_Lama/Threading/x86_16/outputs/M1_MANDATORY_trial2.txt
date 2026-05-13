@@ -1,0 +1,11 @@
+Machine Learning:
+Machine learning (ML) is the process of using algorithms and data to improve the predictions or outcomes of a machine or software system. It involves the development and application of algorithms to solve real-world problems. In contrast, deep learning is a subset of machine learning that involves using neural networks to learn and predict patterns in data. Deep learning involves the use of convolutional neural networks (CNNs) and recurrent neural networks (RNNs) to solve a variety of real-world problems such as speech recognition, image recognition, and natural language processing. 
+
+Examples of Deep Learning:
+1. Image recognition: Deep learning is used to recognize faces in images. The technique involves using CNNs to extract feature vectors from images, which are then fed into a neural network to classify the images.
+
+2. Speech recognition: Deep learning is used to train machines to recognize speech. The technique involves using RNNs to model the speech signal and predict the next word or syllable.
+
+3. Natural language processing: Deep learning is used to train machines to understand natural language. The technique involves using CNNs and RNNs to model the syntax and semantics of the language.
+
+4.

@@ -1,0 +1,11 @@
+Quantisation of large transformer models can significantly reduce the memory footprint and the computational requirements of these models. It is particularly useful for CPU-only systems, as quantisation can be used to reduce the model's precision from higher to lower levels, such as from 16-bit to 8-bit or even 4-bit, which can reduce the memory usage and improve the training and inference speed significantly.
+
+The main challenges when running large transformer models on CPU-only systems include:
+
+1. **Memory Usage**: Transformers are designed to process large amounts of data in parallel, and this parallelism makes them memory-intensive. The large memory footprint can be challenging to manage on a CPU-only system, especially for models with billions of parameters, as the model can easily exceed the available memory.
+
+2. **Load Time**: During inference, the model needs to be loaded into the system's memory to start the decoding process. This can be a significant time-consuming process, especially for large models, as it involves loading the entire model's weights into memory.
+
+3. **Inference Speed**: Even if the model is loaded into memory, the inference process can still be slow due to the large memory footprint, which can lead to long inference times, especially for real-time or high-throughput applications.
+
+Quantisation can

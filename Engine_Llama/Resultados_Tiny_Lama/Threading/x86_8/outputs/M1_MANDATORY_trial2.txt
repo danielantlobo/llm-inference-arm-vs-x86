@@ -1,0 +1,8 @@
+Machine Learning: Machine learning is a data-driven approach to problem-solving that uses algorithms and statistical models to improve predictive capabilities. It involves developing models that can recognize patterns and make predictions based on historical data. Machine learning algorithms can be applied to a variety of problems, including identifying patterns in customer behavior, recommending products, detecting fraud, and classifying images.
+
+Deep Learning: Deep learning is a type of machine learning that involves neural networks with multiple layers of neurons. Deep learning algorithms are trained using a dataset of labeled data, and they can learn to identify patterns within the data that were not apparent to the human brain. Deep learning can be used for tasks such as natural language processing, image recognition, speech recognition, and autonomous vehicle control.
+
+Key Differences:
+1. Training Data: Deep learning algorithms require large amounts of labeled data to train their models. Machine learning algorithms, on the other hand, can be trained on a wide variety of data, including unlabeled data.
+
+2. Model Architecture: Deep learning algorithms typically use convolutional neural networks (CNNs) or recurrent neural networks (RNNs) to extract features from data. Machine learning algorithms can

@@ -1,0 +1,7 @@
+Quantisation is a technique for encoding numbers in a finite set of binary digits, typically in the range of 8 bits. It is commonly used in cryptography, for example, to generate a unique key for encryption, and is also used in computer architecture, where it is used to encode the addressing of memory banks for modern processors.
+
+When deploying large transformer models on CPU-only systems, quantisation is crucial to ensure that the model performs well. One of the main challenges is the memory footprint of the model. Since the model is trained on a large dataset, the memory footprint is proportional to the size of the dataset, which grows exponentially as more data is fed into the model.
+
+To address this challenge, quantisation is often used. This involves encoding the model weights in a finite set of binary digits, typically in the range of 8 bits. This approach reduces the memory footprint of the model, while still ensuring that the model performs well.
+
+Quantisation also has the benefit of being a non-destructive operation. When running transformers on CPU-only systems, the model’s weights are loaded into memory, and the model is then run on that memory. This

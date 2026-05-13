@@ -1,0 +1,7 @@
+Machine learning is a type of artificial intelligence that involves training algorithms to make decisions based on data. Machine learning is a broader category that encompasses a variety of techniques, including deep learning.
+Deep learning is a type of machine learning that involves training neural networks with multiple layers to learn complex patterns in data. Deep learning is a subset of machine learning that specializes in learning complex patterns in data using neural networks.
+Machine learning example:
+Suppose a company wants to predict the likelihood of a customer purchasing a product based on their browsing history. The company collects data on customer behavior and trains a machine learning algorithm to make predictions based on this data. The algorithm learns patterns in the data and makes predictions about customer behavior.
+Deep learning example:
+Suppose a company wants to recognize objects in images. The company collects a large dataset of images and trains a deep learning algorithm to recognize objects in the images. The algorithm learns complex patterns in the images and makes predictions about the objects in the images. The deep learning algorithm uses multiple layers to learn complex patterns in the images, such as edges, shapes, and textures.
+In summary, machine learning is a broader category that encompasses a variety of techniques, including deep learning. Deep learning is a subset of machine learning that specializes in learning complex patterns in data using neural networks

@@ -1,0 +1,7 @@
+Machine learning is a type of artificial intelligence that involves teaching a computer to recognize patterns in data. It can be divided into two main types: supervised learning and unsupervised learning. In supervised learning, the computer is trained on a set of labeled data, where the correct output is known. This allows the computer to learn from examples and make predictions on new, unseen data. In unsupervised learning, the computer is trained on data without any labels, and it must find patterns and structures on its own. Deep learning is a subset of machine learning that involves neural networks with multiple layers of interconnected nodes. These layers allow the computer to learn more complex patterns and features from data. An example of supervised learning is image classification, where a computer is trained to recognize different objects in images. An example of deep learning is natural language processing, where a computer is trained to understand and generate human language.
+
+In summary, machine learning is a broader category that includes both supervised and unsupervised learning, while deep learning is a specific type of machine learning that involves neural networks with multiple layers. An example of supervised learning is image classification, while an example of deep learning is natural language processing. 
+
+Key Differences:
+
+1. Supervised vs. Unsupervised Learning: In supervised learning, the

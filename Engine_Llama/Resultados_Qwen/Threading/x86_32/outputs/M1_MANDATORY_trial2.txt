@@ -1,0 +1,9 @@
+Machine learning and deep learning are both types of artificial intelligence (AI) that involve training models on large datasets to make predictions or decisions. However, there are some key differences between the two:
+
+1. Complexity: Deep learning is a subset of machine learning that involves artificial neural networks with multiple layers. These layers allow deep learning models to learn hierarchical representations of data, which makes them more powerful than simple machine learning models.
+
+2. Training process: Deep learning models are typically trained using gradient-based optimization algorithms such as backpropagation. Machine learning models, on the other hand, can be trained using a wide range of algorithms, including linear regression, decision trees, and neural networks.
+
+3. Applications: Deep learning is particularly well-suited for tasks that require complex decision-making, such as image recognition, natural language processing, and speech recognition. Machine learning, on the other hand, can be used for a wide range of applications, including predicting user behavior, identifying fraudulent activity, and automating routine tasks.
+
+An example of a machine learning model is a linear regression model, which is used to predict a continuous output variable based on one or more input variables. For example, a linear regression model could be used to predict house prices based on factors such as location, size, and number of

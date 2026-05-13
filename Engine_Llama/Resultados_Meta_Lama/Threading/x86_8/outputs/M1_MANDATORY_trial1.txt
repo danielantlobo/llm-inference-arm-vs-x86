@@ -1,0 +1,14 @@
+15 points
+Machine learning and deep learning are both subfields of artificial intelligence (AI) that enable computers to learn from data and make predictions or decisions without being explicitly programmed. However, they differ in their approach, complexity, and applications.
+**Machine Learning:**
+1.  **Supervised learning**: Machine learning focuses on supervised learning, where the algorithm is trained on labeled data to learn patterns and relationships.
+2.  **Shallow models**: Machine learning uses shallow models, which are simpler models with a small number of layers (usually 1-2).
+3.  **Linear models**: Machine learning models are often linear, meaning they learn a linear relationship between inputs and outputs.
+4.  **Gradient descent**: Machine learning algorithms use gradient descent to optimize the model's parameters.
+5.  **Frequentist approach**: Machine learning is based on a frequentist approach, which views the model as a fixed entity.
+
+**Example:** A spam filter that uses machine learning to classify emails as spam or not spam based on features like sender, subject, and content.
+
+**Deep Learning:**
+1.  **Unsupervised learning**: Deep learning focuses on unsupervised learning, where the algorithm is trained on unlabeled data to discover patterns and relationships.
+2.

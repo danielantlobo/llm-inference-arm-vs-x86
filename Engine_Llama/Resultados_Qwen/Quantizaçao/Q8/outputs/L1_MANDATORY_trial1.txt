@@ -1,0 +1,13 @@
+When running large transformer models on CPU-only systems, there are several key challenges:
+
+1. **Memory Footprint**: Transformer models are extremely memory-intensive. Even small models can require tens or hundreds of GBs of memory to store their parameters, which makes them impractical to run on limited resources like CPUs.
+
+2. **Inference Speed**: The large memory footprint means that the model's parameters must be loaded into memory before inference, which is a time-consuming process. This loading phase can dominate the total inference time.
+
+3. **Parallelization**: Transformer models do not naturally support parallelization during training or inference, which is a major bottleneck in CPU-only systems.
+
+4. **Quantization**: Quantizing the model can help reduce memory consumption and improve inference speed by reducing the number of parameters stored in memory. However, quantization introduces approximation errors, which need to be carefully managed to maintain model accuracy.
+
+To address these challenges, quantization is a promising approach. Quantization involves converting the model's parameters from floating-point numbers to fixed-point numbers, which can be stored and processed more efficiently. Here's how quantization can help:
+
+1. **Memory Reduction**: Quantization reduces the number of parameters required to represent the model, thereby reducing the memory footprint. For example, a model
