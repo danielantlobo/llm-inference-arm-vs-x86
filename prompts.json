@@ -1,0 +1,135 @@
+{
+  "categories_info": {
+    "short": "50-128 tokens",
+    "medium": "256-512 tokens",
+    "long": "1024+ tokens"
+  },
+  "prompts": {
+    "short": [
+      {
+        "id": "S1_MANDATORY",
+        "text": "What is the capital of France?"
+      },
+      {
+        "id": "S2",
+        "text": "List five common programming languages used in data science."
+      },
+      {
+        "id": "S3",
+        "text": "Translate the following sentence to Portuguese: 'Efficiency is key in high-performance computing.'"
+      },
+      {
+        "id": "S4",
+        "text": "What is the difference between a CPU and a GPU in one sentence?"
+      },
+      {
+        "id": "S5",
+        "text": "Give me a simple recipe for making a cup of tea."
+      },
+      {
+        "id": "S6",
+        "text": "Who was the lead author of the 'Attention Is All You Need' paper?"
+      },
+      {
+        "id": "S7",
+        "text": "What does the acronym RAM stand for in a computer system?"
+      },
+      {
+        "id": "S8",
+        "text": "Write a short Python function that adds two numbers."
+      },
+      {
+        "id": "S9",
+        "text": "What are the main three states of matter?"
+      },
+      {
+        "id": "S10",
+        "text": "Explain what a 'token' is in the context of Large Language Models."
+      }
+    ],
+    "medium": [
+      {
+        "id": "M1_MANDATORY",
+        "text": "Explain the key differences between machine learning and deep learning, and provide an example of each."
+      },
+      {
+        "id": "M2",
+        "text": "Summarize the history of supercomputing from the 1960s to the present day in three paragraphs."
+      },
+      {
+        "id": "M3",
+        "text": "Write a medium-length email to a professor asking for an extension on a Big Data project due to server maintenance issues."
+      },
+      {
+        "id": "M4",
+        "text": "Explain how a sorting algorithm like Quicksort works and discuss its average time complexity."
+      },
+      {
+        "id": "M5",
+        "text": "Discuss the ethical implications of using AI-generated code in commercial software development."
+      },
+      {
+        "id": "M6",
+        "text": "Describe the main components of a Linux filesystem and how permissions (read, write, execute) are managed."
+      },
+      {
+        "id": "M7",
+        "text": "Compare and contrast Python and C++ in the context of performance-critical applications."
+      },
+      {
+        "id": "M8",
+        "text": "Explain the concept of 'parallel processing' and how it differs from 'serial processing' in modern CPUs."
+      },
+      {
+        "id": "M9",
+        "text": "Provide a detailed explanation of the HTTP protocol and how it enables communication between a client and a server."
+      },
+      {
+        "id": "M10",
+        "text": "Describe the process of fine-tuning a pre-trained language model for a specific downstream task like sentiment analysis."
+      }
+    ],
+    "long": [
+      {
+        "id": "L1_MANDATORY",
+        "text": "The transformer architecture, introduced in the paper 'Attention Is All You Need' by Vaswani et al. in 2017, has become the foundation for most modern large language models. Unlike recurrent neural networks, which process sequences sequentially, transformers process all tokens in parallel using self-attention mechanisms. This allows better parallelisation during training and has proven more effective at capturing long-range dependencies in text. When deploying transformers for inference on CPU, the main bottlenecks are the model’s large memory footprint and the repeated loading of weights during the decoding phase. Based on this context, what are the main challenges when running large transformer models on CPU-only systems, and how might quantisation help address these challenges?"
+      },
+      {
+        "id": "L2",
+        "text": "Write a comprehensive technical essay (minimum 1000 words) about the evolution of the ARM architecture. Start from its origins at Acorn Computers, through the development of the RISC philosophy, and conclude with its current dominance in mobile devices and its recent adoption in supercomputers like Fugaku and Deucalion. Discuss the energy efficiency benefits of ARM compared to x86 and how this impacts Large Language Model deployment at scale."
+      },
+      {
+        "id": "L3",
+        "text": "Analyze the impact of Big Data on modern healthcare systems. Discuss data collection from wearable devices, the role of predictive analytics in disease prevention, and the privacy concerns regarding patient data storage in cloud environments. Provide a detailed section on how federated learning could solve privacy issues while allowing models to be trained on global datasets."
+      },
+      {
+        "id": "L4",
+        "text": "Provide an in-depth explanation of the SLURM workload manager. Explain the life cycle of a job from submission (sbatch) to completion. Describe how the scheduler handles priority, partitions, and Quality of Service (QoS). Include a section on how a user should optimize their script's resource requests (CPUs, memory, time) to ensure efficient use of a shared cluster."
+      },
+      {
+        "id": "L5",
+        "text": "Create a detailed tutorial on building a RAG (Retrieval-Augmented Generation) system. Cover the entire pipeline: document ingestion, chunking strategies, embedding generation, vector database storage (e.g., Pinecone or Chroma), and the final generation step where the LLM uses retrieved context to answer queries. Explain why RAG is often preferred over fine-tuning for knowledge-intensive tasks."
+      },
+      {
+        "id": "L6",
+        "text": "Describe the architecture and history of the x86 instruction set. Discuss the transition from 16-bit to 32-bit (i386) and then to 64-bit (AMD64). Explain the concepts of pipelining, out-of-order execution, and SIMD extensions like AVX-512. Compare these features with the SVE extensions found in modern ARM CPUs like the A64FX."
+      },
+      {
+        "id": "L7",
+        "text": "Explain the full process of LLM Quantization. Cover techniques such as GPTQ, AWQ, and GGUF (k-quants). Explain the mathematical difference between 16-bit floating point (FP16) and 4-bit integer (INT4) representations. Discuss the trade-off between model size, inference speed, and perplexity (accuracy loss) across different quantization levels."
+      },
+      {
+        "id": "L8",
+        "text": "Write a long-form science fiction story about an AI living on a supercomputer that becomes self-aware. The story should focus on the AI's internal experience of 'thinking' in terms of floating-point operations and memory latency. Describe its interaction with the human sysadmins through terminal logs and its eventual realization of the physical limits of the hardware it inhabits."
+      },
+      {
+        "id": "L9",
+        "text": "Analyze the 'Roofline Model' for performance estimation in multicore processors. Explain how to plot a roofline graph with arithmetic intensity on the X-axis and performance on the Y-axis. Discuss how to identify whether an application is memory-bound or compute-bound and what optimization strategies should be applied in each case, specifically for LLM inference."
+      },
+      {
+        "id": "L10",
+        "text": "Discuss the future of Open Source LLMs versus Proprietary Models. Analyze the role of Meta's Llama series, Mistral, and the Hugging Face community in democratizing AI. Contrast this with the business models of OpenAI and Google. Predict how the availability of high-quality open-weights models will change the landscape of corporate software development over the next decade."
+      }
+    ]
+  }
+}
