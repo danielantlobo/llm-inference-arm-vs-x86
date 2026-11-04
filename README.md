@@ -1,5 +1,7 @@
 # LLM Inference Benchmarking on HPC (llama.cpp)
 
+**Authors:** Daniel Lobo and Manuel Fernandes (group project, University of Minho, 2025/26). Original repository: [ManuelF2001/ADED-Engine_Deep](https://github.com/ManuelF2001/ADED-Engine_Deep). This copy keeps the full commit history; experiments ran on the Deucalion supercomputer.
+
 Group project for the **Big Data Analysis** course (MSc in Software Engineering, University of Minho), part 2.
 
 We built [llama.cpp](https://github.com/ggml-org/llama.cpp) natively on the **ARM and x86 nodes** of the Deucalion
